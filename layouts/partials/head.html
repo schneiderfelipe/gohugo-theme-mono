@@ -1,3 +1,6 @@
+{{- $options := dict "targetPath" "js/index.js" -}}
+{{- $js := resources.Get "ts/index.ts" | js.Build $options | resources.Minify | fingerprint -}}
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,6 +17,5 @@
     {{- end }}
   </title>
   {{ hugo.Generator }}
-  {{ $js := resources.Get "ts/index.ts" | js.Build }}
-  <script src="{{ $js.Permalink }}" defer></script>
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 </head>
