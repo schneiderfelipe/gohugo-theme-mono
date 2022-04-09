@@ -1,0 +1,23 @@
+{
+  "name": "gohugo-theme-mono",
+  "version": "0.1.0",
+  "description": "Hugo monospacial theme",
+  "main": "assets/js/index.js",
+  "scripts": {
+    "build": "esbuild assets/ts/index.ts --bundle --outfile=assets/js/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schneiderfelipe/gohugo-theme-mono.git"
+  },
+  "author": "Felipe S. S. Schneider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schneiderfelipe/gohugo-theme-mono/issues"
+  },
+  "homepage": "https://github.com/schneiderfelipe/gohugo-theme-mono#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.34"
+  }
+}

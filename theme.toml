@@ -4,7 +4,7 @@
 name = "Mono Hugo Theme"
 license = "MIT"
 licenselink = "https://github.com/schneiderfelipe/gohugo-theme-mono/blob/main/LICENSE"
-description = "Hugo monospace theme"
+description = "Hugo monospacial theme"
 homepage = "https://github.com/schneiderfelipe/gohugo-theme-mono"
 tags = []
 features = []

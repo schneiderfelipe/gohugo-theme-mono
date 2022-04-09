@@ -1,3 +1,3 @@
 # gohugo-theme-mono
 
-Hugo monospace theme.
+Hugo monospacial theme.

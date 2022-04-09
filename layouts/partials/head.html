@@ -14,4 +14,6 @@
     {{- end }}
   </title>
   {{ hugo.Generator }}
+  {{ $js := resources.Get "ts/index.ts" | js.Build }}
+  <script src="{{ $js.Permalink }}" defer></script>
 </head>
