@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["vanilla-extract-css-ns:gohugo-theme-mono/assets/ts/styles.css.ts.vanilla.css?source=Ll8xdzNkY2hsMCB7CiAgLS1fMXczZGNobDE6IGJsdWU7CiAgLS1fMXczZGNobDI6IGFyaWFsOwp9Ci5fMXczZGNobDMgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLV8xdzNkY2hsMSk7CiAgZm9udC1mYW1pbHk6IHZhcigtLV8xdzNkY2hsMik7CiAgY29sb3I6IHdoaXRlOwogIHBhZGRpbmc6IDEwcHg7Cn0="],
+  "sourcesContent": ["._1w3dchl0 {\n  --_1w3dchl1: blue;\n  --_1w3dchl2: arial;\n}\n._1w3dchl3 {\n  background-color: var(--_1w3dchl1);\n  font-family: var(--_1w3dchl2);\n  color: white;\n  padding: 10px;\n}"],
+  "mappings": "AAAA,WACE,kBACA,mBAEF,WACE,kCACA,6BACA,WAPF",
+  "names": []
+}

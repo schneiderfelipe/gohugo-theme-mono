@@ -1,5 +1,5 @@
-{{- $options := dict "targetPath" "js/index.js" -}}
-{{- $js := resources.Get "ts/index.ts" | js.Build $options | resources.Minify | fingerprint -}}
+{{- $js := resources.Get "js/index.js" | resources.Minify | fingerprint -}}
+{{- $css := resources.Get "css/index.css" | resources.Minify | fingerprint -}}
 
 <head>
   <meta charset="UTF-8" />
@@ -16,6 +16,9 @@
 
     {{- end }}
   </title>
+
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+
   {{ hugo.Generator }}
-<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 </head>

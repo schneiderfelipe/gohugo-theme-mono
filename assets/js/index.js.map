@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../ts/styles.css.ts", "../ts/index.ts"],
+  "sourcesContent": ["import 'gohugo-theme-mono/assets/ts/styles.css.ts.vanilla.css?source=Ll8xdzNkY2hsMCB7CiAgLS1fMXczZGNobDE6IGJsdWU7CiAgLS1fMXczZGNobDI6IGFyaWFsOwp9Ci5fMXczZGNobDMgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLV8xdzNkY2hsMSk7CiAgZm9udC1mYW1pbHk6IHZhcigtLV8xdzNkY2hsMik7CiAgY29sb3I6IHdoaXRlOwogIHBhZGRpbmc6IDEwcHg7Cn0=';\nexport var exampleStyle = '_1w3dchl3';\nexport var themeClass = '_1w3dchl0';\nexport var vars = {color:{brand:'var(--_1w3dchl1)'},font:{body:'var(--_1w3dchl2)'}};", "import { themeClass, exampleStyle } from \"./styles.css\";\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  document.querySelectorAll(\"main\").forEach((main) => {\n    main.classList.add(themeClass);\n    main.querySelectorAll(\"h1\").forEach((h1) => {\n      h1.classList.add(exampleStyle);\n    });\n  });\n});\n"],
+  "mappings": "MACO,GAAI,GAAe,YACf,EAAa,YCAxB,SAAS,iBAAiB,mBAAoB,IAAM,CAClD,SAAS,iBAAiB,MAAM,EAAE,QAAQ,AAAC,GAAS,CAClD,EAAK,UAAU,IAAI,CAAU,EAC7B,EAAK,iBAAiB,IAAI,EAAE,QAAQ,AAAC,GAAO,CAC1C,EAAG,UAAU,IAAI,CAAY,CAC/B,CAAC,CACH,CAAC,CACH,CAAC",
+  "names": []
+}
